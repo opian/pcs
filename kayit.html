@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.wrapper{
+			width: 600px;
+			margin: 0 auto;
+
+		}
+		input[type="text"] {
+			height: 50px;
+			width: 450px; 
+			font-size: 2em;
+			color: skyblue;
+			padding-left: 10px;
+		}
+		label{
+			font-size: 1.5em;
+			color: orange;
+		}
+		input[type="reset"],input[type="submit"] {
+			margin-top: 20px;
+			height: 50px;
+			width: 225px;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<form action="http://localhost/s/kayit.php" method="GET">
+			<label for="ad">Ad:</label><br>
+			<input type="text" name="add" id="add"><br>
+			<label for="ad">Seri:</label><br>
+			<input type="text" name="seriNoo" id="seriNoo"><br>
+			<input type="submit" value="Kaydet">
+			<input type="reset" value="Temizle">
+		</form>
+	</div>
+
+</body>
+</html>
